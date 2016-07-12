@@ -1,0 +1,689 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("../images/beige.png");
+}
+
+strong {
+  text-transform: uppercase;
+}
+
+h1 {
+  float: left;
+  margin-left: 10px;
+}
+
+nav {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ticker {
+  float: right;
+  clear: right;
+  width: 12%;
+  height: 25px;
+  padding: 5px;
+  background-color: black;
+  border: black solid 3px;
+  margin: 5px;
+  color: orange;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+/* Home Page */
+
+.homeBody {
+  background-image: url("../images/homebeige.png");
+}
+
+.homeNavBar {
+  position: relative;
+  top: -4px;
+}
+
+.homeLiveDiv {
+  background-color: black;
+  border: 3px solid black;
+  float: right;
+  border-radius: 88px;
+  position: relative;
+  top: 230px;
+  right: 250px;
+  color: orange;
+  padding: 26px;
+  width: 188px;
+  height: 127px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.homeTicker {
+  font-size: 16pt;
+  font-weight: bold; 
+}
+
+.gif {
+  float: right;
+  position: relative;
+  top: 10px;
+}
+
+.homeHeader {
+  margin-top: 50px;
+  color: orange;
+  text-shadow: 1px 1px 2px black;
+  font-size: 40pt;
+  position: relative;
+  left: 6%;
+  top: -15px;
+}
+
+.homeHub {
+  clear: left;
+  position: relative; 
+  top: -67px;
+  left: 30%;
+  color: orange;
+  text-shadow: 1px 1px 2px black;
+  font-size: 40pt;
+}
+
+.navBox {
+  border: 8px solid orange;
+  border-radius: 21px;
+  clear: left;
+  float: left;
+  padding: 20px 0px 20px 55px;
+  width: 470px;
+  position: relative;
+  left: 105px;
+  margin-bottom: 100px;
+}
+
+.homeUsing {
+  font-size: 24pt;
+  margin-left: 58px;
+}
+
+.homeNav {
+  font-size: 18pt;
+  width: 85%;
+  margin-left: 5px;
+  text-align: center;
+}
+
+ul {
+  font-size: 14pt;
+  font-weight: bold; 
+  margin-left: 8px;
+}
+
+
+/* News */
+
+.newsh1 {
+  color: orange;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 50px;
+  margin-bottom: -15px;
+  font-size: 40pt;
+  position: relative;
+  left: 17%;
+  clear: right;
+}
+
+.newsh2 {
+  color: orange;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 150px;
+  font-size: 24pt;
+  clear: right;
+  position: relative;
+  left: -22%;
+  top: 90px;
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
+.coindesk {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 35%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.coindeskPic {
+  width: 95%;
+  padding: 14px;
+}
+
+.coindeskText {
+  float: left;
+  width: 35%;
+  border-top: orange 3px solid;
+  margin-left: 5%;
+  position: relative;
+  top: 11px;
+  font-size: 16pt;
+}
+
+.newsBitcoin {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 35%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newsbitText {
+  float: left;
+  width: 35%;
+  border-top: orange 3px solid;
+  margin-left: 5%;
+  position: relative;
+  top: 11px;
+  font-size: 16pt;
+}
+
+.newsBitcoinPic {
+  width: 95%;
+  padding: 3px 13px 1px 13px;
+}
+
+.reddit {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin-left: 10px;
+  width: 33.7%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.redditPic {
+  width: 100%;
+}
+
+.redditText {
+  float: left;
+  width: 35%;
+  border-top: orange 3px solid;
+  margin-left: 5.5%;
+  position: relative;
+  top: 1px;
+  font-size: 16pt;
+}
+
+.bitcoinMag {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 33.7%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.bitcoinMagPic {
+  width: 100%;
+}
+
+.yBitcoin {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 35%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.yBitcoinPic {
+  width: 95%;
+  padding: 15px;
+}
+
+.distributed {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 33.7%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.distributedPic {
+  width: 100%;
+}
+
+.ccn {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 34.3%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+}
+
+.ccnPic {
+  width: 100%;
+  position: relative;
+  left: 52px;
+}
+
+.cointel {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 33.7%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.cointelPic {
+  width: 100%;
+}
+
+.inside {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 33.7%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.insidePic {
+  width: 100%;
+}
+
+.newsbtc {
+  clear: left;
+  border: solid orange 3px;
+  float: left;
+  margin: 10px;
+  width: 33.7%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.newsbtcPic {
+  width: 100%;
+}
+
+
+
+/* Primers */
+
+.primerh1 {
+  color: orange;
+  text-shadow: 2px 2px 2px black;
+  font-size: 40pt;
+  clear: left;
+  float: left;
+  position: relative;
+  left: 29%;
+  top: 10px;
+  margin-bottom: -5px;
+}
+
+.primerh2 {
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+  font-size: 23pt;
+  clear: left;
+  float: left;
+  width: 50%;
+  position: relative;
+  left: 11%;
+  text-align: center;
+}
+
+.primerh3 {
+  color: orange;
+  font-size: 20pt;
+  clear: left;
+  float: left;
+  position: relative;
+  left: 19%;
+  top: -35px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.btcPrimer {
+  clear: left;
+  margin: 40px 5px;
+}
+
+.btcSymbol {
+  width: 30%;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.btcPrimerText {
+  color: #c9822e;
+  margin-bottom: 20px;
+  position: relative;
+  left: 7.5%;
+  font-size: 20pt;
+  text-shadow: 1px 1px 1px black;
+}
+
+.btcBlurb {
+  float: left;
+  width: 40%;
+  margin: 10px;
+  margin-left: 25px;
+  border-top: 3px solid #f9a23b;
+  position: relative;
+  top: -30px;
+}
+
+.btcBlurbText {
+  font-size: 16pt;
+  line-height: 1.5em;
+}
+
+.blockchainPrimer {
+  clear: left;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.blockchainPic {
+  width: 30%;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.blockchainPrimerText {
+  color: #1e7a9c;
+  margin-bottom: 20px;
+  position: relative;
+  left: 5%;
+  font-size: 20pt;
+  text-shadow: 1px 1px 0px black;
+}
+
+.blockBlurb {
+  float: left;
+  width: 40%;
+  margin: 10px;
+  margin-left: 25px;
+  border-top: 3px solid #1e7a9c;
+  position: relative;
+  top: -10px;
+}
+
+.blockBlurbText {
+  font-size: 16pt;
+  line-height: 1.5em;
+}
+
+.ethereumPrimer {
+  clear: left;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.etherSymbol {
+  width: 30%;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.ethereumPrimerText {
+  color: #565454;
+  margin-bottom: 20px;
+  position: relative;
+  left: 6%;
+  font-size: 20pt;
+  text-shadow: 1px 1px 0px black;
+}
+
+.etherBlurb {
+  float: left;
+  width: 40%;
+  margin: 10px;
+  margin-left: 25px;
+  border-top: 3px solid #8c8c8c;
+  position: relative;
+  top: -10px;
+}
+
+.etherBlurbText {
+  font-size: 16pt;
+  line-height: 1.5em;
+}
+
+.cryptoDiv {
+  clear: left;
+  float: left;
+}
+
+.cryptoPic {
+  width: 70%;
+  margin-bottom: 100px;
+  position: relative;
+  left: 5px;
+}
+
+.cryptoHeader {
+  margin-bottom: 20px;
+  position: relative;
+  left: 6%;
+  font-size: 20pt;
+  text-shadow: 1px 1px 0px orange;
+}
+
+.cryptoBlurbText {
+  float: left;
+  border-top: solid 3px black;
+  position: relative;
+  left: -11%;
+  top: 63px;
+  margin: 10px;
+  width: 40%;
+  font-size: 16pt;
+  line-height: 1.5em;
+  padding-top: 20px;
+}
+
+/* Wallet */
+
+.walletH1 {
+  clear: left;
+  color: orange;
+  text-shadow: 2px 2px 2px black;
+  font-size: 40pt;
+  position: relative;
+  top: 20px;
+  left: 70px;
+}
+
+.walletH2 {
+  clear: left;
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+  font-size: 22pt;
+  position: relative;
+  left: 109px;
+}
+
+.coinbasePic {
+  width: 18%;
+  height: 18%;
+  float: left;
+  position: relative;
+  left: 185px;
+  top: 30px;
+}
+
+.walletCali {
+  float: left;
+  width: 620px;
+  position: relative;
+  left: 229px;
+  top: 5px;
+  line-height: 1.25em;
+  color: #2670b3;
+}
+
+.walletClick {
+  float: left;
+  width: 620px;
+  clear: left;
+  position: relative;
+  left: 510px;
+  top: -127px;
+  color: #2670b3;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width:1475px) and (min-width: 1101px){
+  .homeHeader{
+    font-size: 40px;
+  }
+
+  .homeHub {
+    font-size: 40px;
+    clear: left;
+    position: relative;
+    top: -35px;
+    left: 255px;
+  }
+
+  .navBox {
+    width: 30%;
+    position: relative;
+    top: 100px;
+  }
+
+  .homeLiveDiv {
+    clear: left;
+    position: relative;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width:1100px) and (min-width: 1000px){
+  .homeBody {
+    background-image: url("../images/beige.png");
+  }
+
+  .gif {
+    display: none;
+  }
+
+  .homeLiveDiv {
+    clear: left;
+    position: relative;
+    top: 455px;
+    left: -340px;
+  }
+
+  .homeBody {
+    background-image: url("../images/beige.png");
+  }
+
+  .homeHeader {
+    font-size: 30px;
+  }
+
+  .homeHub {
+    font-size: 30px;
+    clear: left;
+    position: relative;
+    top: -25px;
+  }
+
+}
+
+@media screen and (max-width:999px) and (min-width: 825px) {
+  .homeLiveDiv {
+    clear: left;
+    position: relative;
+    top: 455px;
+    left: -340px;
+  }
+
+  .homeBody {
+    background-image: url("../images/beige.png");
+  }
+
+  .gif {
+    display: none;
+  }
+
+  .homeHeader {
+    font-size: 30px;
+  }
+
+  .homeHub {
+    font-size: 30px;
+    clear: left;
+    position: relative;
+    top: -25px;
+  }
+
+}
+
+
+@media screen and (max-width:824px) and (min-width: 1px) {
+  .homeLiveDiv {
+    clear: left;
+    position: relative;
+    top: 455px;
+    left: -340px;
+  }
+
+  .homeBody {
+    background-image: url("../images/beige.png");
+  }
+
+  .gif {
+    display: none;
+  }
+
+  .homeHeader {
+    font-size: 30px;
+  }
+
+  .homeHub {
+    font-size: 30px;
+    clear: left;
+    position: relative;
+    top: -25px;
+  }
+
+  .navBox {
+    position: relative;
+    top: -175px;
+    left: 85px;
+  }
+
+}
